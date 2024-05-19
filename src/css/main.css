@@ -2,6 +2,98 @@
     font-family: "Poppins", sans-serif;
 }
 
+:root {
+    --primaryTextcolor: #232e35;
+    --secondaryTextcolor: #656d72;
+
+    --borderColor: #f1f1f1;
+    --lineColor: #d9d9d9;
+
+    --primaryBacgroundColor: #fff;
+    --secondaryBacgroundColor: #fbfbfb;
+    --thirdBacgroundColor: #f5f3fe;
+
+    --primaryiconColor: #7e74f1;
+    --primaryiconColorHover: #5d51e8;
+    
+    --sectionpadding: 6rem 0;
+
+    --itemBorderRadius: 0,7rem;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6, strong{
+    color: var(--primaryTextcolor)
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1,9rem;
+}
+
+p, span, label, input, textarea, li{
+    color: var(--secondaryTextcolor);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* tiles */
+.section-title{
+    margin: 1rem 0 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pre-title{
+    text-decoration: uppercase;
+    letter-spacing: 0.5rem;
+    color: var(--primaryTextcolor);
+    position: relative;
+    padding-left: 40px;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.pre-title::before{
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: var(--lineColor);
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+}
+
+
+/* layout */
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar{
     padding: 10xp 0 10px 0;
     transform: scaleY(0);
@@ -16,22 +108,84 @@
 }
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
-    ) ,url(../assets/img/hero/profil.jpeg);
+    ) ,url(../assets/img/hero/diamon.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 100px;
 }
 
+/* hero */
 .hero h1{
     font-size: 50px;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
+.hero h1 span{
+    font-weight: 800;
+}
+
+
+/* hero end */
+
+
+/* gallery */
+
 .gallery img{
     height: 300px;
 }
+
+/* gallery end */
+
+
+
+/* services */
+.grid-3 .services .row:nth-child(2) {
+    background-color: var(--secondaryBacgroundColor);
+    padding: var(--sectionpadding);
+  }
+  
+  .grid-3 .services .row:nth-child(1) .pre-title {
+    margin: 0 auto;
+  }
+  
+  .grid-3 .services .row:nth-child(1) .services-title {
+    text-align: center;
+  }
+  
+  .grid-3 .services .row:nth-child(2) .service1,
+  .grid-3 .services .row:nth-child(2) .service2,
+  .grid-3 .services .row:nth-child(2) .service3 {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .grid-3 .services .row:nth-child(2) .card {
+    background: var(--primaryBacgroundColor);
+    border-radius: var(--itemBorderRadius);
+    border: none;
+  }
+  
+
+
+
+
+
+
+
+
+/* .service{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--primaryBacgroundColor);
+} */
+
+
+
+
+
+/* services end */
 
 .footer{
     background-color: #212529;

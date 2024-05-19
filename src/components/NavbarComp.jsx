@@ -22,14 +22,15 @@ const NavbarComp = () => {
     <div className="sticky-top">
       <Navbar expand="lg" variant="dark" className={changeColor ? "color-active" : ""}>
       <Container>
-        <Navbar.Brand href="#home" className="fw-bold fs-4">Portofolio</Navbar.Brand>
+        <Navbar.Brand href="#home" className="fw-bold fs-4">RD</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-center">
-            {/* <Nav.Link href="#home" className="mx-2">Home</Nav.Link>
-            <Nav.Link href="#link" className="mx-2">Gallery</Nav.Link>
-            <Nav.Link href="#link" className="mx-2">Services</Nav.Link>
-            <Nav.Link href="#link" className="mx-2">Faq</Nav.Link> */}
+            <Nav.Link href="#home" className="mx-2">Services</Nav.Link>
+            <Nav.Link href="#link" className="mx-2">Portofolio</Nav.Link>
+            <Nav.Link href="#link" className="mx-2">Skils</Nav.Link>
+            <Nav.Link href="#link" className="mx-2">Contact</Nav.Link>
+            <Nav.Link href="#link" target="-blank" className="mx-2">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

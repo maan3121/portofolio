@@ -18,7 +18,7 @@ const ServicesComp = () => {
                 <Card.Body>
                   <i className="fa-brands fa-html5 fs-2 mb-3"></i>
                   <Card.Title className="fw-bold">Front-end</Card.Title>
-                  <Card.Text>Html, css, JavaScript, React</Card.Text>
+                  <Card.Text>Html, Css, JavaScript, React</Card.Text>
                 </Card.Body>
               </Card>
             </Col>

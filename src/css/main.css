@@ -141,6 +141,10 @@ a{
 
 
 /* services */
+.grid-3 .services{
+    background: var(--secondaryBacgroundColor);
+}
+
 .grid-3 .services .row:nth-child(2) {
     background-color: var(--secondaryBacgroundColor);
     padding: var(--sectionpadding);
@@ -154,9 +158,9 @@ a{
     text-align: center;
   }
   
-  .grid-3 .services .row:nth-child(2) .service1,
-  .grid-3 .services .row:nth-child(2) .service2,
-  .grid-3 .services .row:nth-child(2) .service3 {
+  .grid-3 .services .row:nth-child(2) .service .service1,
+  .grid-3 .services .row:nth-child(2) .service .service2,
+  .grid-3 .services .row:nth-child(2) .service .service3 {
     padding: 3rem 2rem;
     text-align: center;
   }

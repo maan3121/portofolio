@@ -51,6 +51,19 @@ a{
     font-weight: bold;
 }
 
+
+.education-title{
+    margin: 0.5rem 0 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.education-years{
+    margin: 2rem 0 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 .pre-title{
     text-decoration: uppercase;
     letter-spacing: 0.5rem;
@@ -140,13 +153,13 @@ a{
 
 
 
-/* services */
+/* SRVICES */
 .grid-3 .services{
-    background: var(--secondaryBacgroundColor);
+    background:var(--primaryBacgroundColor);
 }
 
 .grid-3 .services .row:nth-child(2) {
-    background-color: var(--secondaryBacgroundColor);
+    background-color: var(--primaryBacgroundColor);
     padding: var(--sectionpadding);
   }
   
@@ -166,7 +179,7 @@ a{
   }
   
   .grid-3 .services .row:nth-child(2) .card {
-    background: var(--primaryBacgroundColor);
+    background: var(--lineColor);
     border-radius: var(--itemBorderRadius);
     border: none;
   }
@@ -186,10 +199,104 @@ a{
 } */
 
 
+/* SERVICES END */
 
 
 
-/* services end */
+/* gallery  */
+
+
+.gallery .gallerys{
+    background: var(--primaryBacgroundColor);
+}
+
+ 
+.gallery .gallerys .row:nth-child(1) .pre-title {
+    margin: 0 auto;
+}
+  
+.gallery .gallerys .row:nth-child(1) .section-title {
+    text-align: center;
+}
+
+.gallery .gallerys .row:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding-inline: 10px;
+ }
+
+ .gallery .gallerys .row:nth-child(2) .col{
+    background-color: var(--lineColor);
+    padding: 0;
+}
+
+.gallery .gallerys .row:nth-child(2) img{
+    height: 200px;
+}
+
+.gallery .gallerys .row:nth-child(2) p{
+    line-height: 1.7;
+}
+
+
+/* GALLERY END */
+
+/* EDUCATION  */
+.edukasi{
+    background-color: #b3abab;
+}
+
+.edukasi .row:nth-child(2) .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edukasi .row:nth-child(2) .flex-container ul{
+    flex: 1;
+    margin: 0 10px;
+}
+
+
+
+
+/* EDUCATION END */
+
+/* MESSAGE  */
+.message{
+    background: var(--primaryBacgroundColor);
+}
+
+
+
+
+
+/* MESSAGE END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     background-color: #212529;

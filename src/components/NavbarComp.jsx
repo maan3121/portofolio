@@ -26,10 +26,10 @@ const NavbarComp = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-center">
-            <Nav.Link href="#home" className="mx-2">Services</Nav.Link>
-            <Nav.Link href="#link" className="mx-2">Portofolio</Nav.Link>
-            <Nav.Link href="#link" className="mx-2">Skils</Nav.Link>
-            <Nav.Link href="#link" className="mx-2">Contact</Nav.Link>
+            <Nav.Link href="#home" className="mx-2">Portofolio</Nav.Link>
+            <Nav.Link href="#link" className="mx-2">Spesialis</Nav.Link>
+            <Nav.Link href="#link" className="mx-2">Pendidikan</Nav.Link>
+            <Nav.Link href="#link" className="mx-2">Kontak</Nav.Link>
             <Nav.Link href="#link" target="-blank" className="mx-2">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
